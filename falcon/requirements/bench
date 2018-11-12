@@ -1,0 +1,7 @@
+django<2.0  # django>=2.0 no longer supports py27
+flask
+pecan
+bottle
+
+pprofile
+vmprof
