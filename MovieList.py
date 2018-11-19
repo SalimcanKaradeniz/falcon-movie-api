@@ -39,6 +39,7 @@ class movie_show_and_add(object):
     curr.execute("SELECT m.*, c.category_uid FROM movie AS m INNER JOIN category AS c ON m.category = c.category_name;")
     data_list = []
 
+
     for data_query in curr:
         data_dict = {
             'movies': {
