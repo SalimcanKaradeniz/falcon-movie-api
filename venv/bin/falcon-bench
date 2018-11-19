@@ -1,12 +1,11 @@
-#!/home/salimcan/PycharmProjects/falcon-movie-api/venv/bin/python
-# EASY-INSTALL-ENTRY-SCRIPT: 'falcon==2.0.0.dev1','console_scripts','falcon-bench'
-__requires__ = 'falcon==2.0.0.dev1'
+#!/home/salimcan/PycharmProjects/movie-api/venv/bin/python
+
+# -*- coding: utf-8 -*-
 import re
 import sys
-from pkg_resources import load_entry_point
+
+from falcon.cmd.bench import main
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(
-        load_entry_point('falcon==2.0.0.dev1', 'console_scripts', 'falcon-bench')()
-    )
+    sys.exit(main())

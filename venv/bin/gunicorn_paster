@@ -1,4 +1,4 @@
-#!/home/salimcan/PycharmProjects/falcon-movie-api/venv/bin/python
+#!/home/salimcan/PycharmProjects/movie-api/venv/bin/python
 
 # -*- coding: utf-8 -*-
 import re
