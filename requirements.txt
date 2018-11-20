@@ -5,7 +5,7 @@ chardet==3.0.4
 coverage==4.5.1
 Cython==0.29
 extras==1.0.0
-falcon==2.0.0.dev1
+falcon==2.0.0
 fixtures==3.0.0
 gunicorn==19.9.0
 idna==2.7
