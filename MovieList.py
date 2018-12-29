@@ -69,7 +69,7 @@ class movie_show_and_add(object):
             res.status = falcon.HTTP_200
             res.body = self.to_json(self.data_list)
         else:
-            raise print("hata")
+            raise Exception("hata")
 
 
 class category_show(object):
@@ -95,7 +95,7 @@ class category_show(object):
             res.status = falcon.HTTP_200
             res.body = self.to_json(self.data_list)
         else:
-            raise print("hata")
+            raise Exception("hata")
 
 
 class movie_show(object):
@@ -144,7 +144,7 @@ class movie_show(object):
             res.status = falcon.HTTP_200
             res.body = self.to_json(self.data_list)
         else:
-            raise print("hata")
+            raise Exception("hata")
 
 
 api = falcon.API()
